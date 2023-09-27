@@ -1,6 +1,3 @@
-# Chat up
-
-Chat up.
 
 ## Getting Started
 
