@@ -10,6 +10,7 @@
     "test-lint": "./node_modules/.bin/eslint ./config ./controllers ./database ./graphql ./dto-schemas ./routes ./services ./utils ./test ./test/api-test ./test/services ",
     "test-mocha": "find ./test -name '*.js' | xargs nyc mocha --exit",
     "storybook": "storybook dev -p 6006",
+    "serve": "npm run build && node ./dist/server.js",
     "build-storybook": "storybook build"
   },
   "repository": {

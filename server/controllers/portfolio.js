@@ -16,17 +16,17 @@ const savedetails = async (req, res) => {
   }
 };
 
-const getlist = async (req, res) => {
-  try {
-    const { doc } = await PortfolioService.getlist(req.body);
+// const getlist = async (req, res) => {
+//   try {
+//     const { doc } = await PortfolioService.getlist(req.body);
 
-    if (doc) {
-      return res.postRequest();
-    }
-  } catch (err) {
-    return res.serverError();
-  }
-};
+//     if (doc) {
+//       return res.postRequest();
+//     }
+//   } catch (err) {
+//     return res.serverError();
+//   }
+// };
 const getdetails = async (req, res) => {
   try {
     const data = { user_id: req.user.user_id };
