@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb-base', 'plugin:storybook/recommended'],
+  extends: ['airbnb-base', 'plugin:storybook/recommended' ],
   env: {
     node: true,
   },
